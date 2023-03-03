@@ -48,6 +48,11 @@ declare interface SwipeablePanelProps extends React.Props<SwipeablePanel> {
    * Set true if you want to close panel by touching outside
    */
   closeOnTouchOutside?: boolean;
+  
+  /**
+   * Children prop
+   */
+  children: React.ReactElement;
 
   /**
    * Set true if you want to let panel open just large mode
