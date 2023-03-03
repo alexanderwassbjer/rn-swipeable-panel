@@ -21,6 +21,11 @@ declare interface SwipeablePanelProps extends React.Props<SwipeablePanel> {
    * Set true if you want to make full with panel
    */
   fullWidth?: boolean;
+  
+  /**
+   * Children prop
+   */
+  children: React.ReactElement;
 
   /**
    * Set true if you want to disable black background opacity
