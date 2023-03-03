@@ -43,6 +43,7 @@ type SwipeablePanelProps = {
   barContainerStyle?: object,
   allowTouchOutside?: boolean;
   scrollViewProps?: ScrollViewProps;
+  children: React.ReactElement;
 };
 
 type MaybeAnimated<T> = T | Animated.Value;
